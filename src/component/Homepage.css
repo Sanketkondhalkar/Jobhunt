@@ -1,0 +1,67 @@
+@media (min-width: 0px) and (max-width: 998px) {
+  .homepagerow {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 394px; */
+    height: auto;
+  }
+  .carddata {
+    width: 100%;
+  }
+
+  .gallery {
+    margin-top: 50px;
+  }
+  .col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 28px 0 28px;
+  }
+  .footer-row {
+    text-align: center;
+  }
+  .gallery-image {
+    height: 280px;
+    width: 400px;
+    padding: 0px 20px 0 20px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 998px) and (max-width: 2000px) {
+  .carddata {
+    width: 60%;
+    margin: 0px auto;
+  }
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+  .col-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.gallery-image {
+  height: 280px;
+  width: 400px;
+  object-fit: cover;
+}
+.logo img {
+  height: 55px;
+  width: 55px;
+  margin-right: 20px;
+  border-radius: 30px;
+  margin-top: 5px;
+}
+.review {
+  margin-bottom: 20px;
+}
+@media (min-width: 1152px) and (max-width: 1473px) {
+  .property1 {
+    width: 100vh;
+  }
+}
+@media (min-width: 0px) and (max-width: 858px) {
+  .navbar-nav .nav-link {
+    text-align: center;
+  }
+}

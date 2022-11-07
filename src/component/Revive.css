@@ -1,0 +1,24 @@
+.data {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.image-data {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent;
+  border: none;
+}
+/* [type="button"]:not(:disabled), */
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled)
+/* button:not(:disabled) { */ {
+  cursor: pointer;
+  border: none;
+}
